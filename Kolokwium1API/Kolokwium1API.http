@@ -1,0 +1,33 @@
+@Kolokwium1API_HostAddress = http://localhost:5070
+
+GET {{Kolokwium1API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Kolokwium1API_HostAddress}}/api/deliveries/deliveries_id
+Accept: application/json
+
+###
+
+PUT {{Kolokwium1API_HostAddress}}/api/deliveries
+Accept: application/json
+
+###
+#POST {{Kolokwium1API_HostAddress}}/api/deliveries
+#Conrent-Type: application/json
+#{
+#"deliveryId": 10,
+#"customerId": 1,
+#"licenceNumber":"LIC1234567890001",
+#"products": [
+#{
+#"name": "Smartphone",
+#"amount": 4
+#},
+#{
+#"name": "Headphones",
+#"amount": 3
+#}
+#]
+#}
